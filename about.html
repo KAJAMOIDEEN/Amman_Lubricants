@@ -148,7 +148,7 @@
        const email = document.getElementById('email').value;
        const message = document.getElementById('message').value;
  
-       const response = await fetch('/api/send-email', {
+       const response = await fetch('/api/send-email.js', {
          method: 'POST',
          headers: {
            'Content-Type': 'application/json',
