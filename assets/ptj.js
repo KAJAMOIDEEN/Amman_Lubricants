@@ -24,6 +24,9 @@ if (navClose) {
       bootstrapCollapse.hide(); // Hide the collapse
     });
   });
+
+  
+  
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll(".nav__link");
 
